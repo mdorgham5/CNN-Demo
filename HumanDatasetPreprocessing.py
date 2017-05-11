@@ -11,6 +11,8 @@ from scipy import ndimage
 import Image
 import glob
 
+#URL for the dataset
+#http://www2.informatik.uni-freiburg.de/~spinello/RGBD-dataset.html 
 txtFiles = glob.glob("/home/dorgham/Desktop/IAS/ComputerVisionProject/datasets/mensa_seq0_1.1/track_annotations/*.txt")
 
 for txtfile in txtFiles:
